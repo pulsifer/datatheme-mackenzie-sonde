@@ -7,79 +7,48 @@
                 "name": "extents",
                 "type": "string",
                 "constraints": {
-                    "type": true,
                     "maxLength": true
                 }
             },
             {
-                "name": "qa-qc",
-                "type": "string",
-                "constraints": {
-                    "type": true
-                }
+                "name": "qa_qc",
+                "type": "string"
             },
             {
                 "name": "equipment",
-                "type": "string",
-                "constraints": {
-                    "type": true
-                }
+                "type": "string"
             },
             {
                 "name": "sampler",
-                "type": "string",
-                "constraints": {
-                    "type": true
-                }
+                "type": "string"
             },
             {
                 "name": "lab",
-                "type": "string",
-                "constraints": {
-                    "type": true
-                }
+                "type": "string"
             },
             {
                 "name": "depth",
-                "type": "numeric",
-                "constraints": {
-                    "type": true
-                }
+                "type": "numeric"
             },
             {
                 "name": "matrix",
-                "type": "string",
-                "constraints": {
-                    "type": true
-                }
+                "type": "string"
             },
             {
                 "name": "related",
-                "type": "string",
-                "constraints": {
-                    "type": true
-                }
+                "type": "string"
             },
             {
                 "name": "type",
-                "type": "string",
-                "constraints": {
-                    "type": true
-                }
+                "type": "string"
             },
             {
                 "name": "series",
-                "type": "string",
-                "constraints": {
-                    "type": true
-                }
+                "type": "string"
             },
             {
                 "name": "comments",
-                "type": "string",
-                "constraints": {
-                    "type": true
-                }
+                "type": "string"
             }
         ]
     }

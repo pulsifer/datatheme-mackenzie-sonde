@@ -9,7 +9,6 @@
         "raises": "error",
         "constraints": {
           "required": true,
-          "type": true,
           "maxLength": true
         }
       },
@@ -18,72 +17,63 @@
         "type": "date",
         "raises": "error",
         "constraints": {
-          "required": true,
-          "type": true
+          "required": true
         }
       },
       {
         "name": "temp",
         "type": "numeric",
         "constraints": {
-          "required": true,
-          "type": true
+          "required": true
         }
       },
       {
         "name": "cond",
         "type": "numeric",
         "constraints": {
-          "required": true,
-          "type": true
+          "required": true
         }
       },
       {
         "name": "ph",
         "type": "numeric",
         "constraints": {
-          "required": true,
-          "type": true
+          "required": true
         }
       },
       {
         "name": "orp",
         "type": "numeric",
         "constraints": {
-          "required": true,
-          "type": true
+          "required": true
         }
       },
       {
         "name": "turbid",
         "type": "numeric",
         "constraints": {
-          "required": true,
-          "type": true
+          "required": true
         }
       },
       {
         "name": "chl",
         "type": "numeric",
         "constraints": {
-          "required": true,
-          "type": true
+          "required": true
         }
       },
       {
         "name": "odo_sat",
         "type": "numeric",
         "constraints": {
-          "required": true,
-          "type": true
+          "required": true
         }
       },
       {
         "name": "odo",
         "type": "numeric",
         "constraints": {
-          "required": true,
-          "type": true
+          "required": true
         }
       }
     ]
