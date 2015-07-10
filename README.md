@@ -28,3 +28,7 @@ $ cat datatheme.json
 ````
 $ sh ./dt2dp.sh > datapackage.json
 ````
+
+When deploying to S3 use:
+bash publi.sh put dev.mackenzie.sonde
+In .env file dev.mackenzie is the DATATHEME_ROOT and .[theme] is resolved dynamically. 
