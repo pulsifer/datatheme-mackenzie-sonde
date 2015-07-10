@@ -1,6 +1,6 @@
 {
-  "name": "sonde",
-  "path": "sonde.csv",
+  "name": "sonde_data",
+  "path": "sonde_data.csv",
   "schema": {
     "fields": [
       {
