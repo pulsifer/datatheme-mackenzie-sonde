@@ -1,0 +1,11 @@
+{
+    "name": "mackenzie.sonde",
+    "version": "1.0.1",
+    "repository": "http://github.com/tesera/datatheme-mackenzie-sonde.git",
+    "author": "Yves Richard",
+    "description": "Datatheme for Mackenzie Basin Sonde data.",
+    "schemas": [
+        "./schemas/sonde_data.json",
+        "./schemas/sonde_meta.json"    
+    ]
+}

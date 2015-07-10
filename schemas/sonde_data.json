@@ -1,0 +1,95 @@
+{
+  "name": "sonde",
+  "path": "sonde.csv",
+  "schema": {
+    "fields": [
+      {
+        "name": "site",
+        "type": "string",
+        "raises": "error",
+        "constraints": {
+          "required": true,
+          "type": true,
+          "maxLength": true
+        }
+      },
+      {
+        "name": "in_date",
+        "type": "date",
+        "raises": "error",
+        "constraints": {
+          "required": true,
+          "type": true
+        }
+      },
+      {
+        "name": "temp",
+        "type": "numeric",
+        "constraints": {
+          "required": true,
+          "type": true
+        }
+      },
+      {
+        "name": "cond",
+        "type": "numeric",
+        "constraints": {
+          "required": true,
+          "type": true
+        }
+      },
+      {
+        "name": "ph",
+        "type": "numeric",
+        "constraints": {
+          "required": true,
+          "type": true
+        }
+      },
+      {
+        "name": "orp",
+        "type": "numeric",
+        "constraints": {
+          "required": true,
+          "type": true
+        }
+      },
+      {
+        "name": "turbid",
+        "type": "numeric",
+        "constraints": {
+          "required": true,
+          "type": true
+        }
+      },
+      {
+        "name": "chl",
+        "type": "numeric",
+        "constraints": {
+          "required": true,
+          "type": true
+        }
+      },
+      {
+        "name": "odo_sat",
+        "type": "numeric",
+        "constraints": {
+          "required": true,
+          "type": true
+        }
+      },
+      {
+        "name": "odo",
+        "type": "numeric",
+        "constraints": {
+          "required": true,
+          "type": true
+        }
+      }
+    ]
+  },
+  "primaryKey": [
+    "site",
+    "in_date"
+  ]
+}

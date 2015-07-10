@@ -1,0 +1,86 @@
+{
+    "name": "sonde_meta",
+    "path": "sonde_meta.csv",
+    "schema": {
+        "fields": [
+            {
+                "name": "extents",
+                "type": "string",
+                "constraints": {
+                    "type": true,
+                    "maxLength": true
+                }
+            },
+            {
+                "name": "qa-qc",
+                "type": "string",
+                "constraints": {
+                    "type": true
+                }
+            },
+            {
+                "name": "equipment",
+                "type": "string",
+                "constraints": {
+                    "type": true
+                }
+            },
+            {
+                "name": "sampler",
+                "type": "string",
+                "constraints": {
+                    "type": true
+                }
+            },
+            {
+                "name": "lab",
+                "type": "string",
+                "constraints": {
+                    "type": true
+                }
+            },
+            {
+                "name": "depth",
+                "type": "numeric",
+                "constraints": {
+                    "type": true
+                }
+            },
+            {
+                "name": "matrix",
+                "type": "string",
+                "constraints": {
+                    "type": true
+                }
+            },
+            {
+                "name": "related",
+                "type": "string",
+                "constraints": {
+                    "type": true
+                }
+            },
+            {
+                "name": "type",
+                "type": "string",
+                "constraints": {
+                    "type": true
+                }
+            },
+            {
+                "name": "series",
+                "type": "string",
+                "constraints": {
+                    "type": true
+                }
+            },
+            {
+                "name": "comments",
+                "type": "string",
+                "constraints": {
+                    "type": true
+                }
+            }
+        ]
+    }
+}
