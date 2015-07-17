@@ -5,10 +5,7 @@
         "fields": [
             {
                 "name": "extents",
-                "type": "string",
-                "constraints": {
-                    "maxLength": true
-                }
+                "type": "string"
             },
             {
                 "name": "qa_qc",
