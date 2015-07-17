@@ -1,6 +1,6 @@
 {
   "name": "datatheme-mackenzie-sonde",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Datapackage theme for Mackenzie Basin",
   "main": "index.js",
   "scripts": {

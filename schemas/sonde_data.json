@@ -8,8 +8,7 @@
         "type": "string",
         "raises": "error",
         "constraints": {
-          "required": true,
-          "maxLength": true
+          "required": true
         }
       },
       {
