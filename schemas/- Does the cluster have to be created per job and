@@ -1,5 +1,0 @@
-- Does the cluster have to be created per job and why does it take so long? Is that part of cost or just how long the job runs?
-- Is it possible to test the outcome of one path and then connect it to annother path. For example, if one insert fails then do not run the other job?
-- Logs are very technical, is there a simple version of asserts.
-
-https://github.com/xplenty/xplenty-api-doc
