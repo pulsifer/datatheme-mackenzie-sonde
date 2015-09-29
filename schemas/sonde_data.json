@@ -1,89 +1,95 @@
 {
-    "name": "sonde_data",
-    "path": "sonde_data.csv",
-    "schema": {
-        "fields": [
-            {
-                "name": "site",
-                "type": "string",
-                "raises": "error",
-                "constraints": {
-                    "required": true,
-                    "maxLength": 100
-                }
-            },
-            {
-                "name": "date_in",
-                "type": "date",
-                "raises": "error",
-                "constraints": {
-                    "required": true
-                }
-            },
-            {
-                "name": "temp",
-                "type": "number",
-                "raises": "warning",
-                "constraints": {
-                    "minimum": 0
-                }
-            },
-            {
-                "name": "cond",
-                "type": "number",
-                "raises": "warning",
-                "constraints": {
-                    "minimum": 0
-                }
-            },
-            {
-                "name": "ph",
-                "type": "number",
-                "raises": "warning",
-                "constraints": {
-                    "minimum": 0
-                }
-            },
-            {
-                "name": "orp",
-                "type": "number",
-                "raises": "warning",
-                "constraints": {
-                    "minimum": 0
-                }
-            },
-            {
-                "name": "turbid",
-                "type": "number",
-                "raises": "warning",
-                "constraints": {
-                    "minimum": 0
-                }
-            },
-            {
-                "name": "chl",
-                "type": "number",
-                "raises": "warning",
-                "constraints": {
-                    "minimum": 0
-                }
-            },
-            {
-                "name": "odo_sat",
-                "type": "number",
-                "raises": "warning",
-                "constraints": {
-                    "minimum": 0
-                }
-            },
-            {
-                "name": "odo",
-                "type": "number",
-                "raises": "warning",
-                "constraints": {
-                    "minimum": 0
-                }
-            }
-        ]
+  "fields": [
+    {
+      "name": "site",
+      "title": "Site",
+      "type": "string",
+      "raises": "error",
+      "constraints": {
+        "required": true,
+        "maxLength": 100
+      }
+    },
+    {
+      "name": "date_in",
+      "title": "Date",
+      "type": "date",
+      "raises": "error",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "temp",
+      "title": "Temp",
+      "type": "number",
+      "raises": "warning",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "cond",
+      "title": "SpCond",
+      "type": "number",
+      "raises": "warning",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "ph",
+      "title": "pH",
+      "type": "number",
+      "raises": "warning",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "orp",
+      "title": "Orp",
+      "type": "number",
+      "raises": "warning",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "turbid",
+      "title": "Turbid+",
+      "type": "number",
+      "raises": "warning",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "chl",
+      "title": "Chl",
+      "type": "number",
+      "raises": "warning",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "odo_sat",
+      "title": "ODOsat",
+      "type": "number",
+      "raises": "warning",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "odo",
+      "title": "ODO",
+      "type": "number",
+      "raises": "warning",
+      "constraints": {
+        "minimum": 0
+      }
     }
+  ]
 }

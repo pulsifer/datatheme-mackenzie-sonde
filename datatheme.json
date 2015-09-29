@@ -2,10 +2,21 @@
     "name": "mackenzie.sonde",
     "version": "1.0.2",
     "repository": "http://github.com/tesera/datatheme-mackenzie-sonde.git",
-    "author": "Yves Richard",
     "description": "Datatheme for Mackenzie Basin Sonde data.",
-    "schemas": [
-        "./schemas/sonde_data.json",
-        "./schemas/sonde_meta.json"    
-    ]
+    "resources": [
+    {
+      "name": "sonde_data",
+      "title": "Sonde Data",
+      "path": "sonde_data.csv",
+      "validator": "http://s3.amazonaws.com/tesera.data.themes/mackenzie.sonde/awk/sonde_data.awk",
+      "schema": "./schemas/sonde_data.json"
+    },
+    {
+      "name": "sonde_meta",
+      "title": "Sonde Meta",
+      "path": "sonde_meta.csv",
+      "validator": "http://s3.amazonaws.com/tesera.data.themes/mackenzie.sonde/awk/sonde_meta.awk",
+      "schema": "./schemas/sonde_meta.json"
+    }
+  ]
 }

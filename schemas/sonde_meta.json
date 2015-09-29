@@ -1,52 +1,82 @@
 {
-    "name": "sonde_meta",
-    "path": "sonde_meta.csv",
-    "schema": {
-        "fields": [
-            {
-                "name": "extents",
-                "type": "string"
-            },
-            {
-                "name": "qa_qc",
-                "type": "string"
-            },
-            {
-                "name": "equipment",
-                "type": "string"
-            },
-            {
-                "name": "sampler",
-                "type": "string"
-            },
-            {
-                "name": "lab",
-                "type": "string"
-            },
-            {
-                "name": "depth",
-                "type": "number"
-            },
-            {
-                "name": "matrix",
-                "type": "string"
-            },
-            {
-                "name": "related",
-                "type": "string"
-            },
-            {
-                "name": "type",
-                "type": "string"
-            },
-            {
-                "name": "series",
-                "type": "string"
-            },
-            {
-                "name": "comments",
-                "type": "string"
-            }
-        ]
+  "fields": [
+    {
+      "name": "title",
+      "title": "Title",
+      "type": "string",
+      "raises": "error",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "description",
+      "title": "Description",
+      "type": "string"
+    },
+    {
+      "name": "location",
+      "title": "Location",
+      "type": "geojson",
+      "raises": "error",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "extents",
+      "title": "Extents",
+      "type": "string"
+    },
+    {
+      "name": "qa_qc",
+      "title": "QA QC",
+      "type": "string"
+    },
+    {
+      "name": "equipment",
+      "title": "Equipment",
+      "type": "string"
+    },
+    {
+      "name": "sampler",
+      "title": "Sampler",
+      "type": "string"
+    },
+    {
+      "name": "lab",
+      "title": "Lab",
+      "type": "string"
+    },
+    {
+      "name": "depth",
+      "title": "Depth",
+      "type": "number"
+    },
+    {
+      "name": "matrix",
+      "title": "Matrix",
+      "type": "string"
+    },
+    {
+      "name": "related",
+      "title": "Related",
+      "type": "string"
+    },
+    {
+      "name": "type",
+      "title": "Type",
+      "type": "string"
+    },
+    {
+      "name": "series",
+      "title": "Series",
+      "type": "string"
+    },
+    {
+      "name": "comments",
+      "title": "Comments",
+      "type": "string"
     }
+  ]
 }
