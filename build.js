@@ -17,7 +17,7 @@ fs.createReadStream('datatheme.json')
         });
         delete theme.resources;
         var datapackage = {
-            name: 'afgo-pgyi-dataset',
+            name: 'mackenzie-sonde',
             theme: theme,
             resources: resources
         };
