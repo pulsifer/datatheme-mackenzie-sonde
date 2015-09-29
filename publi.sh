@@ -18,7 +18,7 @@ cp_flags="--acl public-read --cache-control no-cahe"
 
 if [ $CI_BRANCH != 'master' ]; then DATATHEME_NAME="$CI_BRANCH.$DATATHEME_NAME"; fi;
 echo "building datapackage.json"
-node ./build.js > ./www/datapackage.json &&
+node ./build.js $DATATHEME_NAME > ./www/datapackage.json
 
 mkdir ./www/awk ./www/rules
 echo "compiling bawlk rules from datapackage.json"
