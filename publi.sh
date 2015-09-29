@@ -19,6 +19,7 @@ cp_flags="--acl public-read --cache-control no-cahe"
 if [ "$CI_BRANCH" != 'master' ]; then DATATHEME_NAME="$CI_BRANCH.$DATATHEME_NAME"; fi;
 echo "processing $CI_BRANCH"
 echo "building datapackage.json for datatheme $DATATHEME_NAME"
+mkdir -p ./www
 node ./build.js $DATATHEME_NAME > ./www/datapackage.json
 
 mkdir ./www/awk ./www/rules
