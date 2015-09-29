@@ -17,7 +17,7 @@ datatheme_path="$datatheme_root/$2"
 cp_flags="--acl public-read --cache-control no-cahe"
 
 if [ $CI_BRANCH != 'master' ]; then DATATHEME_NAME="$CI_BRANCH.$DATATHEME_NAME"; fi;
-echo "building datapackage.json"
+echo "building datapackage.json for datatheme $DATATHEME_NAME"
 node ./build.js $DATATHEME_NAME > ./www/datapackage.json
 
 mkdir ./www/awk ./www/rules
