@@ -6,8 +6,7 @@
       "type": "string",
       "raises": "error",
       "constraints": {
-        "required": true,
-        "maxLength": 100
+        "required": true
       }
     },
     {
@@ -50,10 +49,7 @@
       "name": "orp",
       "title": "Orp",
       "type": "number",
-      "raises": "warning",
-      "constraints": {
-        "minimum": 0
-      }
+      "raises": "warning"
     },
     {
       "name": "turbid",
