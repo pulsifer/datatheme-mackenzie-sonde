@@ -22,6 +22,7 @@
     {
       "name": "temp",
       "title": "Temp",
+      "unit": "oC",
       "type": "number",
       "raises": "warning",
       "constraints": {
@@ -31,6 +32,7 @@
     {
       "name": "cond",
       "title": "SpCond",
+      "unit": "µS/cm",
       "type": "number",
       "raises": "warning",
       "constraints": {
@@ -49,12 +51,14 @@
     {
       "name": "orp",
       "title": "Orp",
+      "unit": "mV",
       "type": "number",
       "raises": "warning"
     },
     {
       "name": "turbid",
       "title": "Turbid+",
+      "unit": "NTU",
       "type": "number",
       "raises": "warning",
       "constraints": {
@@ -64,6 +68,7 @@
     {
       "name": "chl",
       "title": "Chl",
+      "unit": "RFU",
       "type": "number",
       "raises": "warning",
       "constraints": {
@@ -73,6 +78,7 @@
     {
       "name": "odo_sat",
       "title": "ODOsat",
+      "unit": "%",
       "type": "number",
       "raises": "warning",
       "constraints": {
@@ -82,6 +88,7 @@
     {
       "name": "odo",
       "title": "ODO",
+      "unit": "mg/L",
       "type": "number",
       "raises": "warning",
       "constraints": {
